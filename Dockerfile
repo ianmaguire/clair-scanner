@@ -1,5 +1,5 @@
 FROM debian:wheezy
 
-COPY clair-scanner /bin/clair-scaner
+COPY clair-scanner /bin/clair-scanner
 
 CMD clair-scanner --help
